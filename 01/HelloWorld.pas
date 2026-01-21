@@ -1,6 +1,10 @@
 program HelloWorld;
+
+var
+  StrPesan: string;
+
 begin
-  WriteLn('Selamat datang di Object Pascal!');
+  StrPesan := 'Selamat datang di Object Pascal!';
+  WriteLn(StrPesan);
   ReadLn;
 end.
-
